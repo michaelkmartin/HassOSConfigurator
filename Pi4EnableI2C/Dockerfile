@@ -1,4 +1,4 @@
-ARG BUILD_FROM
+ARG BUILD_FROM=ghcr.io/hassio-addons/base:16.2.1
 FROM $BUILD_FROM
 ENV LANG C.UTF-8
 COPY run.sh /
